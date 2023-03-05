@@ -1,0 +1,95 @@
+.select {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+
+    button {
+        color: #000;
+        background: #fff;
+        padding: 0.65rem 1rem;
+        border: none;
+        margin-top:  1rem;
+        cursor: pointer;
+        font-size: .85rem;
+        font-family: "Poppins";
+        border-radius: 10px;
+
+        &.active {
+            background: #003fde;
+            color: #fff;
+        }
+    }
+
+}
+.skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 4rem;
+
+    @media screen and (max-width: 500px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        padding: 0 3rem;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+
+        svg {
+            width: 100px;
+            height: 100px;
+            color: #fff;
+            border-radius: 50%;
+
+            @media screen and (max-width: 700px) {
+                width: 70px;
+                height: 70px;
+            }
+        }
+    }
+}
+
+.experiences {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+
+    .experience {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3rem;
+
+        span {
+            font-size: 1.75rem;
+            padding-left: 2.5rem;
+
+            @media screen and (max-width: 405px) {
+                font-size: 1rem;
+            }
+        }
+        .position {
+            width: 400px;
+            padding-left: 2.5rem;
+
+            h3 {
+                font-size: 1.1rem;
+
+                @media screen and (max-width: 405px) {
+                    font-size: .85rem;
+                }
+            }
+            p {
+                font-size: .75rem;
+                opacity: .6;
+            }
+        }
+    }
+}
