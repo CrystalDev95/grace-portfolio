@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/grace-portfolio/static/css/main.fce6e638.css",
+    "main.js": "/grace-portfolio/static/js/main.2b88c901.js",
+    "static/media/work3.png": "/grace-portfolio/static/media/work3.38a0478a40a0895f334c.png",
+    "static/media/work2.png": "/grace-portfolio/static/media/work2.7c66aad2137ada39f9d7.png",
+    "static/media/work1.png": "/grace-portfolio/static/media/work1.06152288f56a9efdda48.png",
+    "static/media/profile-img.jpeg": "/grace-portfolio/static/media/profile-img.e4b2e2e85ce5ca2b54af.jpeg",
+    "index.html": "/grace-portfolio/index.html",
+    "main.fce6e638.css.map": "/grace-portfolio/static/css/main.fce6e638.css.map",
+    "main.2b88c901.js.map": "/grace-portfolio/static/js/main.2b88c901.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fce6e638.css",
+    "static/js/main.2b88c901.js"
+  ]
+}
